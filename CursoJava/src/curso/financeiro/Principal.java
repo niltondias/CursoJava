@@ -29,9 +29,9 @@ public class Principal {
 		
 		//contaPag1.pagar();
 		
-		//contaPag2.pagar();
+		contaPag2.pagar();
 		
-		//contaPag1.cancelar();
+		contaPag1.cancelar();
 		
 		//contaPag1.pagar();
 		
