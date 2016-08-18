@@ -22,6 +22,7 @@ public class Principal {
 		System.out.println(formata.format((valor3)));
 		entrada.close();
 		
+		System.out.println("Testando GitHub!");
 		
 	}
 
