@@ -3,7 +3,7 @@ package curso.collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TesteArray {
+public class TesteListArrayList {
 	public static void main(String[] args) {
 		Aluno a1 = new Aluno("Joaquina");
 		Aluno a2 = new Aluno("Sandra");
