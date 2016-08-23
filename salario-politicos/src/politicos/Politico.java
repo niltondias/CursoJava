@@ -1,8 +1,12 @@
-package curso.collections;
+package politicos;
 
 public class Politico {
 	private String nome;
 	private Cargo cargo;
+	
+	public Politico() {
+		
+	}
 	
 	public Politico( String nome, Cargo cargo) {
 		this.nome = nome;
@@ -24,7 +28,6 @@ public class Politico {
 	public void setCargo(Cargo cargo) {
 		this.cargo = cargo;
 	}
-
 	
 	
 }

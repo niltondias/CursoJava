@@ -1,6 +1,5 @@
-package curso.collections;
+package politicos;
 
-import java.lang.reflect.ParameterizedType;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,7 +44,7 @@ public class Governo {
 		
 		for( Politico politico : politicos ) {
 			cargo = politico.getCargo();
-			salarios.add( salarios.add(cargo.getSalario()) ); // Incrementando o salario (BigDecimal)
+			salarios = salarios.add(cargo.getSalario()); // Incrementando o salario (BigDecimal)
 		}
 		
 		return salarios;
@@ -55,7 +54,20 @@ public class Governo {
 		// implementar busca dos políticos para o partido e cargo informados
 		// e cálculo dos salários
 		
-		// ( parei aqui ) Varrer todo Map Hash para somar os salarios do cargo
+		BigDecimal valor = new BigDecimal(0);
+		Cargo cargoAux = new Cargo();
+		
+		List<Politico> politicos = this.partidosPoliticos.get(partidoPolitico);
+		for( Politico politico : politicos) {  // Varre todo Array dentro do Map
+			cargoAux = politico.getCargo();
+			
+			// Comparando o cargo do array com o passado como parametro
+			//
+			if( cargoAux.equals(cargo) ) {
+				valor = valor.add(cargo.getSalario());  // incrementando valor total ( BigDecimal )
+			}
+		}
+		return valor; // Retornando o valor total 
 	}
 
 }
