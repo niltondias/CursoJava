@@ -28,5 +28,14 @@ public class JOptionPaneTeste3 {
 		default:
 			break;
 		}
+		
+		Object[] possibleValues = { "First", "Second", "Third" };
+		
+		Object selectedValue = JOptionPane.showInputDialog(null, "Escolha um", "Informação", 
+				JOptionPane.INFORMATION_MESSAGE, null, possibleValues, possibleValues[0]);
+		
+		JOptionPane.showMessageDialog(null, (String) selectedValue, 
+				 "Informação", JOptionPane.PLAIN_MESSAGE);
+		
 	}
 }
