@@ -8,9 +8,9 @@ public class ExemplosClasseString2 {
 		
 		System.out.println(s.charAt(0));
 		System.out.println(s.charAt(2));
-		System.out.println(s.charAt(8));
+		System.out.println(s.charAt(7));
 		
-		System.out.println(s.charAt(9));
+		System.out.println(s.charAt(8));
 	}
 	
 }
