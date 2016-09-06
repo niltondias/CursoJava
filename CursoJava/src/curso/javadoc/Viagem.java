@@ -1,6 +1,6 @@
 package curso.javadoc;
 
-import java.util.Date;
+//import java.util.Date;
 
 /**
  * 
@@ -11,9 +11,9 @@ import java.util.Date;
  */
 public class Viagem {
 
-	private Date dataInicio;
-	private Date dataFim;
-	private Funcionario funcionario;
+	//private Date dataInicio;
+	//private Date dataFim;
+	//private Funcionario funcionario;
 	
 	// ...
 	

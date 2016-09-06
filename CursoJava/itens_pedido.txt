@@ -1,0 +1,4 @@
+arroz;10;3,50;
+feijao;15;2;30;
+suco de uva;23;14,50;
+pao de queijo;12;7,50;
